@@ -45,11 +45,13 @@ To run the API, follow these steps:
 To ask questions, just make a `POST` request with the body following this simple model:
 
 ```json
-{ "query": "Liste as políticas de compartilhamento de dados da Starsoft" }
+{
+    "query": "Liste as políticas de compartilhamento de dados da Starsoft"
+}
 ```
 
 The response is a JSON which follows this model:
-`
+
 ```json
 {
     "answer": "A partir do texto fornecido, não há uma lista explícita de políticas de compartilhamento de dados da Starsoft. No entanto, podemos inferir algumas informações sobre como a empresa coleta, usa e protege as informações dos usuários com base na sua Política de Privacidade.\n\nAqui estão algumas delas:\n\n*   A Starsoft coletará informações quando você usar seu site ou serviços.\n*   Ela usará essas informações para fornecer, melhorar e personalizar seus serviços.\n*   A empresa também compartilhará suas informações com terceiros em certas situações, como quando necessário para cumprir leis aplicáveis ou realizar atividades de marketing.\n\nNão há uma lista específica de políticas de compartilhamento de dados no texto fornecido."
